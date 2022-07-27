@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "RMQClient",
-            dependencies: [],
+            dependencies: ["JKVValue", "CocoaAsyncSocket"],
             path: "RMQClient"
             )
         ]
