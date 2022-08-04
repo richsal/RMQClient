@@ -12,11 +12,11 @@
       },
       {
         "package": "JKVValue",
-        "repositoryURL": "https://github.com/richsal/JKVValue.git",
+        "repositoryURL": "https://github.com/renewedvision/JKVValue",
         "state": {
-          "branch": null,
-          "revision": "e0a6d206ffea7941a37c923687eb10434cda011d",
-          "version": "1.3.4"
+          "branch": "master",
+          "revision": "4e5fd996d61e0bcef521df58a54f186588b4dba0",
+          "version": null
         }
       }
     ]
