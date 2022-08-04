@@ -17,7 +17,8 @@ let package = Package(
             name: "RMQClient",
             dependencies: ["JKVValue", "CocoaAsyncSocket"],
             path: "RMQClient",
-            publicHeadersPath: "include"
+            publicHeadersPath: "include",
+            cSettings: [.define("SWIFT_PACKAGE")]
             )
         ]
 )
