@@ -10,7 +10,7 @@ let package = Package(
         ],
     dependencies: [
         .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket.git", from: "7.6.3"),
-        .package(url: "https://github.com/renewedvision/JKVValue", .branch("master"))
+        .package(url: "https://github.com/richsal/JKVValue", .branch("master"))
     ],
     targets: [
         .target(
