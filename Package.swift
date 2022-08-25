@@ -10,15 +10,14 @@ let package = Package(
         ],
     dependencies: [
         .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket.git", from: "7.6.3"),
-        .package(url: "https://github.com/renewedvision/JKVValue.git", from: "1.3.4")
+        .package(url: "https://github.com/richsal/JKVValue.git", from: "1.3.4")
     ],
     targets: [
         .target(
             name: "RMQClient",
             dependencies: ["JKVValue", "CocoaAsyncSocket"],
             path: "RMQClient",
-            publicHeadersPath: "include",
-            cSettings: [.define("SWIFT_PACKAGE")]
+            publicHeadersPath: "include"
             )
         ]
 )
